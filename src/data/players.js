@@ -5,86 +5,86 @@ export const players = [
     team: "IND",
     role: "BAT",
     credits: 10.5,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316605.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/2.png"
   },
   {
     id: 2,
-    name: "Rohit Sharma", 
-    team: "IND",
+    name: "Rohit Sharma",
+    team: "IND", 
     role: "BAT",
     credits: 10,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316584.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/6.png"
   },
   {
     id: 3,
     name: "Jasprit Bumrah",
-    team: "IND", 
-    role: "BOWL",
+    team: "IND",
+    role: "BOWL", 
     credits: 9.5,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316596.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/9.png"
   },
   {
     id: 4,
-    name: "MS Dhoni",
-    team: "CSK",
-    role: "WK", 
-    credits: 9,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316598.png"
-  },
-  {
-    id: 5,
     name: "KL Rahul",
     team: "IND",
     role: "WK",
     credits: 9.5,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316599.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/19.png"
   },
   {
-    id: 6,
+    id: 5,
     name: "Hardik Pandya",
     team: "IND",
     role: "AR",
     credits: 9,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316593.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/54.png"
+  },
+  {
+    id: 6,
+    name: "Ravindra Jadeja", 
+    team: "IND",
+    role: "AR",
+    credits: 9,
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/46.png"
   },
   {
     id: 7,
-    name: "Ravindra Jadeja",
-    team: "IND",
-    role: "AR", 
-    credits: 9,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316594.png"
-  },
-  {
-    id: 8,
     name: "Mohammed Shami",
     team: "IND",
     role: "BOWL",
     credits: 8.5,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316592.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/11.png"
   },
   {
-    id: 9,
+    id: 8,
     name: "Shubman Gill",
     team: "IND",
     role: "BAT",
     credits: 9,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/356800/356813.png"
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/62.png"
+  },
+  {
+    id: 9,
+    name: "Suryakumar Yadav",
+    team: "IND",
+    role: "BAT", 
+    credits: 9,
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/174.png"
   },
   {
     id: 10,
-    name: "Suryakumar Yadav",
-    team: "IND", 
+    name: "David Warner",
+    team: "AUS",
     role: "BAT",
-    credits: 9,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/325900/325974.png"
+    credits: 9.5,
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/214.png"
   },
   {
     id: 11,
-    name: "Kuldeep Yadav",
-    team: "IND",
-    role: "BOWL",
-    credits: 8.5,
-    image: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316597.png"
+    name: "Steve Smith",
+    team: "AUS",
+    role: "BAT",
+    credits: 9,
+    image: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/1125.png"
   }
 ];
