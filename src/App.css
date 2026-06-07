@@ -1,0 +1,65 @@
+.true11 {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #6B46C1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.match-card {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-left: 5px solid #6B46C1;
+}
+
+.teams {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.vs {
+  color: #6B46C1;
+}
+
+.time {
+  color: #666;
+  margin: 10px 0;
+}
+
+.btn {
+  background: #6B46C1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.point-box {
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border: 2px dashed #6B46C1;
+}
+
+.point-box h3 {
+  color: #6B46C1;
+  margin-top: 0;
+}
