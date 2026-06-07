@@ -3,18 +3,18 @@ import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation, Link
 import WalletPage from './WalletPage';
 
 const PLAYERS_DATA = [
-  { id: 1, name: 'Rohit Sharma', team: 'IND', role: 'BAT', credits: 10.5, sel: 85.2, img: 'https://i.pravatar.cc/200?img=1', points: 95 },
-  { id: 2, name: 'Virat Kohli', team: 'IND', role: 'BAT', credits: 10, sel: 92.1, img: 'https://i.pravatar.cc/200?img=2', points: 88 },
-  { id: 3, name: 'David Warner', team: 'AUS', role: 'BAT', credits: 9.5, sel: 78.9, img: 'https://i.pravatar.cc/200?img=3', points: 76 },
-  { id: 4, name: 'Steve Smith', team: 'AUS', role: 'BAT', credits: 9, sel: 76.2, img: 'https://i.pravatar.cc/200?img=4', points: 65 },
-  { id: 5, name: 'KL Rahul', team: 'IND', role: 'WK', credits: 9, sel: 81.5, img: 'https://i.pravatar.cc/200?img=5', points: 72 },
-  { id: 6, name: 'Alex Carey', team: 'AUS', role: 'WK', credits: 8.5, sel: 65.3, img: 'https://i.pravatar.cc/200?img=6', points: 45 },
-  { id: 7, name: 'Hardik Pandya', team: 'IND', role: 'AR', credits: 9.5, sel: 88.4, img: 'https://i.pravatar.cc/200?img=7', points: 82 },
-  { id: 8, name: 'Glenn Maxwell', team: 'AUS', role: 'AR', credits: 9, sel: 79.1, img: 'https://i.pravatar.cc/200?img=8', points: 69 },
-  { id: 9, name: 'Jasprit Bumrah', team: 'IND', role: 'BWL', credits: 9, sel: 90.2, img: 'https://i.pravatar.cc/200?img=9', points: 91 },
-  { id: 10, name: 'Mitchell Starc', team: 'AUS', role: 'BWL', credits: 8.5, sel: 82.7, img: 'https://i.pravatar.cc/200?img=10', points: 78 },
-  { id: 11, name: 'Kuldeep Yadav', team: 'IND', role: 'BWL', credits: 8.5, sel: 75.8, img: 'https://i.pravatar.cc/200?img=11', points: 67 },
-  { id: 12, name: 'Adam Zampa', team: 'AUS', role: 'BWL', credits: 8, sel: 71.4, img: 'https://i.pravatar.cc/200?img=12', points: 58 },
+  { id: 1, name: 'Rohit Sharma', team: 'IND', role: 'BAT', credits: 10.5, sel: 85.2, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', points: 95 },
+  { id: 2, name: 'Virat Kohli', team: 'IND', role: 'BAT', credits: 10, sel: 92.1, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png', points: 88 },
+  { id: 3, name: 'David Warner', team: 'AUS', role: 'BAT', credits: 9.5, sel: 78.9, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/214.png', points: 76 },
+  { id: 4, name: 'Steve Smith', team: 'AUS', role: 'BAT', credits: 9, sel: 76.2, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/271.png', points: 65 },
+  { id: 5, name: 'KL Rahul', team: 'IND', role: 'WK', credits: 9, sel: 81.5, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/19.png', points: 72 },
+  { id: 6, name: 'Alex Carey', team: 'AUS', role: 'WK', credits: 8.5, sel: 65.3, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/236.png', points: 45 },
+  { id: 7, name: 'Hardik Pandya', team: 'IND', role: 'AR', credits: 9.5, sel: 88.4, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/54.png', points: 82 },
+  { id: 8, name: 'Glenn Maxwell', team: 'AUS', role: 'AR', credits: 9, sel: 79.1, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png', points: 69 },
+  { id: 9, name: 'Jasprit Bumrah', team: 'IND', role: 'BWL', credits: 9, sel: 90.2, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/9.png', points: 91 },
+  { id: 10, name: 'Mitchell Starc', team: 'AUS', role: 'BWL', credits: 8.5, sel: 82.7, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/201.png', points: 78 },
+  { id: 11, name: 'Kuldeep Yadav', team: 'IND', role: 'BWL', credits: 8.5, sel: 75.8, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/14.png', points: 67 },
+  { id: 12, name: 'Adam Zampa', team: 'AUS', role: 'BWL', credits: 8, sel: 71.4, img: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/193.png', points: 58 },
 ];
 
 const MATCHES = [
